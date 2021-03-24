@@ -1,5 +1,5 @@
 const { Mongoose } = require("mongoose");
-const HomeModel = require("../models/HouseModel.js");
+const HomeModel = require("../models/houseModel.js");
 
 exports.getUserHome = getUserHome = async (req, res) => {
   const home = await HomeModel.find().sort({ _id: -1 });

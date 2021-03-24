@@ -1,4 +1,4 @@
-const HomeModel = require("../models/HouseModel.js");
+const HomeModel = require("../models/houseModel.js");
 const user = require("../models/users.js");
 exports.getOwnerHome = getOwnerHome = async (req, res) => {
   const { id } = req.params;
